@@ -1,8 +1,8 @@
 # Weather_API
 
-.This repo is for JavaScript Problem solving Practice activity.
-.This activity is based on making different live projects given by the instructor.
-.My task is to make a basic Weather App.
+- This repo is for JavaScript Problem solving Practice activity.
+- This activity is based on making different live projects given by the instructor.
+- My task is to make a basic Weather App.
 
 ## What does this app do?
 This app has functionality of getting weather details based on city name searched by user.
