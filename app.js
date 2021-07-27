@@ -4,7 +4,7 @@ var button = document.querySelector('.btn');
 const showData = document.querySelector('.showData');
 
 //Get API Key By Login To OpenWeather.org
-const API_Key = "a0e78d3b449db7059df0a38abd3952f8";
+const API_Key = "d7cea29288b2ab1ffcf358102f20922d";
 
 //Now Add Event Listener
 button.addEventListener('click', () => {
@@ -14,7 +14,7 @@ button.addEventListener('click', () => {
     // console.log(cityInput);
 
     //Now Fetch Through Get API 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityInput}&units=metric&APPID=${API_Key}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&units=metric&appid=${API_Key}`)
         .then(res => res.json())
         .then(data => {
             console.log(data);
